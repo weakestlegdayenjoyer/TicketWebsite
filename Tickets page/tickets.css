@@ -1,0 +1,148 @@
+body {
+    background: rgb(5,0,130);
+    background: linear-gradient(180deg, rgb(6, 0, 174) 0%, rgba(0,2,17,1) 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+
+    z-index: 1;
+}
+
+.container {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 75%;
+    width: 85%;
+}
+
+.box {
+    height: 80%;
+    width: 20%;
+    overflow: hidden;
+
+    background: rgb(227,22,219);
+    background: linear-gradient(180deg, rgba(227,22,219,1) 0%, rgba(0,10,87,1) 100%);
+
+    border-radius: 20px;
+
+    transition: width 0.3s, height 0.3s;
+}
+
+.box:hover {
+    height: 93%;
+    width: 20%;
+}
+
+.logo {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 75%;
+
+    z-index: 1;
+}
+
+.text {
+    position: absolute;
+
+    color: rgb(0, 0, 0)
+
+    text-align: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+    font-weight: 1000;
+    font-size: 110%;
+
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.price {
+    font-weight: 1000;
+    font-size: 210%;
+
+    color: rgb(0, 0, 0);
+
+    text-align: center;
+
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.line {
+    top: 50%;
+    left: 50%;
+    transform: translate(5%, 10000%);
+
+    background-color: black;
+
+    height: 0.5%;
+    width: 90%;
+}
+
+.info {
+    position: fixed;
+    font-weight: 10;
+    font-size: 120%;
+
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 10%;
+    width: 95%;
+}
+
+#logo {
+    position: absolute;
+    width: 10%;
+
+    top: 5%;
+    left: 2.5%;
+
+    z-index: 155;
+}
+
+#ticketsText {
+    position: absolute;
+
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000;
+    font-size: 400%;
+
+    color: white;
+}
+
+#UNDER25 {
+    left: 15%;
+    top: 50%;
+}
+
+#NORMAL {
+    left: 50%;
+    top: 50%;
+}
+
+#VIP {
+    left: 85%;
+    top: 50%;
+}

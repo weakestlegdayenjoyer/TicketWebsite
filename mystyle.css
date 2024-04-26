@@ -1,0 +1,131 @@
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+
+    z-index: 1;
+}
+
+#BgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+    opacity: 0.15;
+
+    z-index: 50;
+}
+
+#logo {
+    position: absolute;
+    width: 10%;
+
+    top: 5%;
+    left: 2.5%;
+
+    z-index: 155;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    z-index: 105;
+}
+
+#contData {
+    height: 70%;
+    z-index: 95;
+}
+
+#contLocatie {
+    height: 80%;
+    z-index: 94;
+}
+
+.centerText {
+    color: white;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+#textData {
+    font-size: 250%;
+}
+
+#textLocatie {
+    font-size: 115%;
+}
+
+#butonCumpara {
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 20%;
+    height: 30%;
+}
+
+.butoaneMijloc {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -80%);
+
+    width: 50%;
+    height: 17.5%;
+
+    background-color: rgb(31, 31, 97);
+
+    cursor: pointer;
+
+    border-radius: 50px;
+    border: 1px solid white;
+
+    color: white;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 80%;
+}
+
+.butoaneMijloc:hover {
+    background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+    opacity: 60%;
+}
+
+#butonSus {
+    top: 15%;
+    background: rgb(7,0,190);
+    background: linear-gradient(90deg, rgba(7,0,190,1) 0%, rgba(0,6,55,1) 100%);
+}
+
+#butonJos {
+    top: 40%;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#countdown {
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+    width: 25%;
+    height: 10%;
+}
+
+#countTime {
+    font-size: 150%;
+    color: rgb(181, 181, 181);
+}
